@@ -1,4 +1,4 @@
-import Video from "../../models/Video";
+import Video from "../../Models/Video";
 import connectDb from "../../utils/connectDb";
 
 connectDb();
