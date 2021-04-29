@@ -5,7 +5,6 @@ import { Icon } from "semantic-ui-react";
 import baseUrl from "../utils/baseUrl";
 
 export default function Home() {
-  // const [ video, setVideo ] = React.useState("");
 
   return (
     <div class="pageHome">
