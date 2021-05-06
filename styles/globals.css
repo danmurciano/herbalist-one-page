@@ -1,3 +1,13 @@
+/* Googole Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400&family=Rubik:wght@300;400;600&display=swap');
+
+
 html,
 body {
   padding: 0;
@@ -20,7 +30,6 @@ h2 {
   color: #2b2b2b;
 }
 
-/* html { padding: 0 !important; margin: 0 !important; } */
 
 .wrapper {
   min-height: 100vh; padding: 0 !important;

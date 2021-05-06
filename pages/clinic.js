@@ -7,7 +7,7 @@ export default function clinic() {
   function mapArticlesToIndex(articles) {
     return articles.map(article => (
       <div class="row">
-        <div class="col-3">
+        <div class="article-image-div col-3">
           <a href={`/clinic/${article.filename}`}>
             <img class="article-image" src={`images/${article.image}-thumb.jpg`} />
           </a>
@@ -18,7 +18,7 @@ export default function clinic() {
           </a>
           <p class="tagline"> {article.tagline} </p>
 
-            <p> {article.body.substring(0, 280) + " ... "}
+            <p class="article-brief"> {article.body.substring(0, 280) + " ... "}
               <a class="read-more" href={`/clinic/${article.filename}`}> קרא עוד </a>
             </p>
 
@@ -29,10 +29,8 @@ export default function clinic() {
 
   return (
     <div class="pageHome">
-      <div class="banner-video">
-        <div class="title-video-div">
-          <p class="title-video"> קליניקה </p>
-        </div>
+      <div class="banner-clinic">
+        <p class="title-clinic"> קליניקה </p>
       </div>
 
       <div class="clinic-articles">

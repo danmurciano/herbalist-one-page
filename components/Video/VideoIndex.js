@@ -15,7 +15,7 @@ export default function VideoIndex({ selectedVideo }) {
       <div class="index-row row">
 
         <div class="titles-col col-6">
-          <a href={`/video?_id=${video._id}`}>
+          <a href={`/videos/video?_id=${video._id}`}>
             <p
               id={videos.indexOf(video)}
               class="index-video-title"
@@ -26,7 +26,7 @@ export default function VideoIndex({ selectedVideo }) {
         </div>
 
         <div class="thumbnails-col col-6">
-          <a href={`/video?_id=${video._id}`}>
+          <a href={`/videos/video?_id=${video._id}`}>
             <img
               id={videos.indexOf(video)}
               src={`/images/${video.image}.jpg`}

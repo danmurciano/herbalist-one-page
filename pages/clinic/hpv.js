@@ -15,7 +15,7 @@ export default function Article() {
 
       <div class="article-main">
         <div class="article-tagline">
-          <p class="tagline"> {article.tagline} </p>
+          <p> {article.tagline} </p>
         </div>
         <div class="article-body main-text">
           <p>

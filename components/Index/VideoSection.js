@@ -16,7 +16,7 @@ export default function VideoSection({ numberOfVideos, selectedVideo }) {
       <div class="col-md-4 col-sm-6 video-card">
 
         <div class="">
-          <a href={`/video?_id=${video._id}`}>
+          <a href={`/videos/video?_id=${video._id}`}>
             <img
               id={videos.indexOf(video)}
               src={`/images/${video.image}.jpg`}
@@ -27,7 +27,7 @@ export default function VideoSection({ numberOfVideos, selectedVideo }) {
         </div>
 
         <div class="video-section-title">
-          <a class="video-section-title" href={`/video?_id=${video._id}`}>
+          <a class="video-section-title" href={`/videos/video?_id=${video._id}`}>
             <p
               id={videos.indexOf(video)}
             >

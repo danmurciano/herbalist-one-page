@@ -15,12 +15,12 @@ function Header() {
 
   return (
     <>
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" className="navbar">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="navbar-sticky row" id="basic-navbar-nav">
         <div className="navbarCenter col-2" />
-        <Nav className="navbarCenter navbarList col-8">
 
+        <Nav className="navbarCenter navbarList col-8">
           <Nav.Link
             className={router.pathname === "/" ? "nav-item navTextActive" : "nav-item navText"}
             href="/">עמוד ראשי
@@ -46,7 +46,6 @@ function Header() {
             className="nav-item navText"
             href="https://www.ranpharma.com/index.php?route=product/plants&filter_letter=bot_name&ppath=10">אינדקס צמחים
           </Nav.Link>
-
         </Nav>
 
         <Nav className="navbarCenter navbarList col-2">
