@@ -1,8 +1,8 @@
 import videos from "../../public/videoList.json";
-import Video from "../../Models/Video";
-import connectDb from "../../utils/connectDb";
-
-connectDb();
+// import Video from "../../Models/Video";
+// import connectDb from "../../utils/connectDb";
+//
+// connectDb();
 
 export default async (req, res) => {
   const { _id } = req.query;
