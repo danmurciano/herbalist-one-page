@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mallanna");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+
+/* Index Page */
+
+.pageMain {
+  padding: 30px 0px;
+  max-width: 1860px;
+}
+
+.sidebar {
+  width: 280px;
+  max-width: 100%;
+  margin: 6.4vh auto;
+  background-color: white;
+}
+
+.ui.left.overlay.sidebar {
+  overflow: hidden !important;
+  width: 100%;
+  /* max-width: 480px; */
+}
+
+.ui.left.visible.sidebar, .ui.right.visible.sidebar {
+  box-shadow: none !important;
+}
+
+.sidebar-pushable {
+  overflow-y: hidden !important;
+  height: 90vh;
+  min-height: 680px;
+}
+
+.index-right {
+  margin: auto;
+}
+
+
+.productList {
+  padding: 32px 8px;
+}
+
+.productCard {
+  border: none;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
+.card-body {
+  text-align: right;
+  padding-right: 0 !important;
+}
+
+.card-img-top:hover {
+  filter: brightness(0.9);
+  transition: 0.25s;
+}
+
+.card-name {
+  margin-top: -6px !important;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-desc {
+  margin-top: 6px !important;
+  font-size: 13px;
+  font-weight: 400;
+  min-height: 52px;
+}
+
+.card-price {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0;}
+  100% { opacity: 1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.add-to-cart-hidden {
+  visibility: hidden;
+  opacity: 0;
+  margin-top: 8px !important;
+}
+
+.add-to-cart {
+  animation: fadeIn 0.25s both;
+  margin-top: 8px !important;
+}
+
+.ui.button {
+  margin-right: 0 !important;
+}
+
+
+
+
+
+/* Login */
+
+.pageSignIn {
+  padding: 30px 0 !important;
+  max-width: 800px;
+}
+
+.signInBox {
+  border: 1px solid #e0e0e0;
+  padding: 32px 16px;
+}
+
+.signInHeader {
+  background: var(--menuBgAlt);
+  font-size: 20px;
+  color: white;
+  padding: 12px;
+}
+
+.signInSelect {
+  display: inline-block;
+  padding: 0 40px 10px 0;
+  font-weight: bold;
+}
+
+.signInInput {
+  max-width: 400px;
+}

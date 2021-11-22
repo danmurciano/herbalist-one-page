@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "1",
+    "name": "קורס 1",
+    "price": 99.00,
+    "shortDesc": "קורס בנושא טיפול צמחי במצבים כרונים...",
+    "description": "This comfortable sofa has pocket spring seat cushions with high resilience foam and a top layer of wadding. It provides a nice comfort and support for your body while maintaining the shape of the seat cushions. The sofa's sections can be combined in different ways to get a size and shape that suits you. If you ever need a larger sofa, you can always add a section or two. This cover is made of dope-dyed GUNNARED fabric in polyester. It is a durable fabric with a wool-like feel, a warm look and a two-toned malange effect. The cover is easy to keep clean since it is removable and machine washable.10-year limited warrranty. Read about the terms in the limited warranty brochure.",
+    "sku": "654-39-590",
+    "category": "Living Room",
+    "status": "In Stock",
+    "mediaUrl": "images/video-fever.jpg"
+  },
+  {
+    "_id": "2",
+    "name": "קורס 2",
+    "price": 99.00,
+    "shortDesc": "קורס בנושא מערכת העיכול וטיפול מצחי מותאם",
+    "description": "Seat cushions filled with high resilience foam and polyester fiber wadding provides great seating comfort. Removable armrests make it easy to add on a chaise lounge. This cover is made of dope-dyed GUNNARED fabric in polyester. It is a durable fabric with a wool-like feel, a warm look and a two-toned malange effect.10-year limited warrranty. Read about the terms in the limited warranty brochure.",
+    "sku": "262-35-816",
+    "category": "Living Room",
+    "status": "In Stock",
+    "mediaUrl": "images/video-immune.jpg"
+  },
+  {
+    "_id": "3",
+    "name": "קורס 3",
+    "price": 99.00,
+    "shortDesc": "קורס בנושא טיפול צמחי במצבים כרונים...",
+    "description": "Reversible back cushions filled with polyester fibers provide soft support for your back and two different sides for longer wear. Seat cushions filled with high resilience foam and polyester fiber wadding provide comfortable support for your body when seated, and easily regain their shape when you rise. The cover is easy to keep clean as it is removable and can be machine washed. Please check with your local authorities to make sure that the product complies with any specific requirements for business use. This cover's ability to resist abrasion has been tested to handle 50,000 cycles. 15,000 cycles or more is suitable for furniture used every day at home. Over 30,000 cycles means a good ability to resist abrasion. The cover has a lightfastness level of 5 (the ability to resist color fading) on a scale of 1 to 8. According to industry standards, a lightfastness level of 4 or higher is suitable for home use.",
+    "sku": "388-05-274",
+    "category": "Living Room",
+    "status": "In Stock",
+    "mediaUrl": "images/video-sports-digest.jpg"
+  },
+  {
+    "_id": "4",
+    "name": "קורס 4",
+    "price": 99.00,
+    "shortDesc": "קורס בנושא מערכת העיכול וטיפול מצחי מותאם",
+    "description": "HARLANDA sofa takes your comfort to a new level with deep pocket spring seat cushions, high resilience foam, and a top layer of polyester fibers that makes them soft to sink into. Soft, movable back cushions allow you to find a way to sit that feels relaxed and suits you. The sofa's sections can be combined in different ways to get a size and shape that suits you. If you ever need a larger sofa, you can always add a section or two. The cover is easy to keep clean since it is removable and can be machine washed, while the perfect fit makes it look just as neat as a fixed cover. 10-year limited warrranty. Read about the terms in the limited warranty brochure.",
+    "sku": "645-50-825",
+    "category": "Living Room",
+    "status": "In Stock",
+    "mediaUrl": "images/video-sports.jpg"
+  }
+]

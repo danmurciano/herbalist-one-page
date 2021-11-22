@@ -1,8 +1,8 @@
-import CourseList from "../components/Courses/CourseList";
+import MyCourses from "../../components/Account/MyCourses";
 import axios from "axios";
-import baseUrl from "../utils/baseUrl";
+import baseUrl from "../../utils/baseUrl";
 
-export default function Courses({ courses }) {
+export default function Account({ courses }) {
 
   return (
     <div class="pageHome">
@@ -13,14 +13,14 @@ export default function Courses({ courses }) {
       </div>
 
       <div class="courses-list">
-        <CourseList products={courses}/>
+        <MyCourses products={courses}/>
       </div>
     </div>
   )
 }
 
 
-Courses.getInitialProps = async ctx => {
+Account.getInitialProps = async ctx => {
   // const { tokenAdmin } = parseCookies(ctx);
   // if (!tokenAdmin) {
   //   redirectUser(ctx, "/login");

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
 import axios from "axios";
 import catchErrors from "../../utils/catchErrors";
-import MailchimpSubscribe from "react-mailchimp-subscribe";
 
 
 export default function NewsletterModal({ modal, setModal }) {

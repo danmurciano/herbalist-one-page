@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Router, { useRouter } from "next/router";
-import { Navbar, NavDropdown, Nav, FormControl, Form, Button } from "react-bootstrap";
-import { Icon, Popup } from "semantic-ui-react";
+import { Navbar, NavDropdown, Nav, FormControl, Form } from "react-bootstrap";
+import { Icon, Popup, Button } from "semantic-ui-react";
 import NewsletterModal from "./NewsletterModal";
+import { handleLogout } from "../../utils/auth";
 
 
 function Header() {
@@ -12,6 +13,12 @@ function Header() {
 
   const handleCloseModal = () => setModal(false);
   const handleOpenModal = () => setModal(true);
+
+  const user = {
+    name: "דן מורסיאנו",
+    email: "user.gmail.com"
+  }
+
 
   return (
     <>
@@ -53,13 +60,45 @@ function Header() {
             <Popup size="mini" content="צור קשר" trigger={<Icon link name="envelope" className="menu-icon" size="large" />} />
           </Nav.Link>
 
-          <Nav.Link className="left-nav-item" href="">
-            <Icon link name="paper plane" className="menu-icon" size="large" onClick={handleOpenModal} />
-          </Nav.Link>
-
           <Nav.Link className="left-nav-item" href="https://www.facebook.com/yaniv.murciano" target="_blank" rel="noopener noreferrer">
             <Icon link name="facebook official" className="menu-icon" size="large" />
           </Nav.Link>
+
+          <Popup
+            className="account-popup"
+            hoverable
+            flowing
+            basic
+            position="bottom right"
+            content= {
+              <>
+              <div class="account-popup-header row">
+                <div class="col-3 account-popup-header-right"> <Icon name="user circle" size="huge" color="violet"/> </div>
+                <div class="col-9 account-popup-header-left">
+                  <p class="account-popup-name"> { user.name } </p>
+                  <p class="account-popup-email"> { user.email } </p>
+                </div>
+              </div>
+              <div class="account-popup-body">
+                <a href="/account"> <p className="clear-button"> החשבון שלי </p> </a>
+                <a href="/account/my-courses"> <p className="clear-button"> הקורסים שלי </p> </a>
+                <a href="/account/purchases"> <p className="clear-button"> רכישות קודמות </p> </a>
+                <p>
+                <Button
+                  className="clear-button"
+                  onClick={handleLogout}
+                  content="התנתק"
+                />
+                </p>
+              </div>
+              </>
+            }
+            trigger= {
+              <Nav.Link className="left-nav-item" href="/account">
+                <Icon link name="user" className="menu-icon" size="large" />
+              </Nav.Link>
+            }
+          />
         </Nav>
 
         <NewsletterModal modal={modal} setModal={setModal} />

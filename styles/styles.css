@@ -34,10 +34,73 @@
 
 .left-nav-item {
   width: 40px;
-  margin: 0 20px;
+  margin: 0 16px;
 }
 
 .menu-icon { color: rgba(0,0,0,0.6); margin: auto !important; }
+
+
+
+
+/* Account Popup */
+
+.account-popup {
+  width: 280px;
+  padding: 0 !important;
+}
+
+.account-popup-header {
+  padding: 12px;
+  border-bottom: solid 1px #dbdbdb;
+}
+
+.account-popup-header-right {
+  padding-right: 0 !important;
+}
+
+.account-popup-icon {
+  height: 40px !important;
+  width: 40px !important;
+}
+
+.account-popup-header-left {
+  margin: auto;
+}
+
+.account-popup-name {
+  font-size: 16px;
+  font-weight: 600px;
+  margin-bottom: 0;
+}
+
+.account-popup-email {
+  font-size: 12px;
+  color: grey;
+  margin-bottom: 12px;
+}
+
+.account-popup-body {
+  padding: 12px 12px 8px;
+}
+
+.account-popup-body p {
+  margin-bottom: 16px;
+}
+
+.clear-button {
+  background-color: white !important;
+  border: none !important;
+  font-size: 12px !important;
+  color: black !important;
+  padding: 0 !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+
+}
+
+.clear-button:hover {
+  color: #793fbf!important;
+}
 
 
 
