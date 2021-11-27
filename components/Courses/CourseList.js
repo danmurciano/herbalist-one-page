@@ -45,7 +45,7 @@ export default function CourseList({ products }) {
         onMouseEnter={() => setHover(product._id)}
         onMouseLeave={() => setHover("none")}
       >
-        <a class="productLink" href={`/products/product?_id=${product._id}`}>
+        <a class="productLink" href={`/coursess/course?_id=${product._id}`}>
           <img src={product.imageURL} class="card-img-top" alt="..."/>
           <div class="card-body">
             <h5 class="card-name styled-font-md">{product.name}</h5>
