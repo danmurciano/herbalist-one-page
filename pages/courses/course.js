@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 // import VideoIndex from "../../components/Courses/VideoIndex";
-import VideoPlayer from "../../components/Courses/VideoPlayer";
+import VideoPlayer from "../../components/Lectures/VideoPlayer";
 import VideoSection from "../../components/Index/VideoSection";
 import axios from "axios";
 import baseUrl from "../../utils/baseUrl";
