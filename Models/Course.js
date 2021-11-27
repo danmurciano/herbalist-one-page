@@ -41,6 +41,7 @@ const CourseSchema = new mongoose.Schema(
 
     status: {
       type: String,
+      default: "hidden",
       enum: [ "active", "hidden" ]
     }
   },
