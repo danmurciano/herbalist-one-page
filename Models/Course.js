@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import formatPrice from "../utils/formatPrice.js";
 
-const { String, Number } = mongoose.Schema.Types;
+const { String, Number, Boolean } = mongoose.Schema.Types;
 
 const CourseSchema = new mongoose.Schema(
   {
