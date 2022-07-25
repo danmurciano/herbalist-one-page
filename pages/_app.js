@@ -1,12 +1,11 @@
 import App from "next/app";
 import Layout from "../components/_App/Layout";
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import 'semantic-ui-css/semantic.min.css';
 import '../styles/bootstrap-rtl.css';
-// import '../styles/bootstrap5-rtl.css';
 import '../styles/globals.css';
 import '../styles/styles.css';
 import '../styles/modal.css';
+
 
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
@@ -18,7 +17,6 @@ class MyApp extends App {
 
     return { pageProps };
   }
-
 
   render() {
     const { Component, pageProps } = this.props;
