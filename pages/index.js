@@ -3,7 +3,6 @@ import axios from "axios";
 import Header from "../components/_App/Header";
 import Main from "../components/Index/Main";
 import MainSmall from "../components/Index/MainSmall";
-import { Icon, Image } from "semantic-ui-react";
 import baseUrl from "../utils/baseUrl";
 
 export default function Home() {
