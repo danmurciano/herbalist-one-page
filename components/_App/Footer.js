@@ -1,33 +1,33 @@
 import React, { useEffect, useState } from "react";
 import { Navbar, NavDropdown, Nav } from "react-bootstrap";
-import { Icon, Popup } from "semantic-ui-react";
-import NewsletterModal from "./NewsletterModal";
+import { Icon, Popup, Image } from "semantic-ui-react";
+
 
 export default function Header2() {
   var date = new Date();
-  const [modal, setModal] = useState(false);
-
-  const handleCloseModal = () => setModal(false);
-  const handleOpenModal = () => setModal(true);
 
   return (
     <div class="footer-div">
       <div class="footer">
         <Nav className="navbarCenter navbarList">
-          <Nav.Link className="left-nav-item" href="mailto:yaniv@ranpharma.com">
-            <Popup size="mini" content="צור קשר" trigger={<Icon link name="envelope" className="menu-icon" size="large" />} />
-          </Nav.Link>
 
-          <Nav.Link className="left-nav-item" href="">
-            <Icon link name="paper plane" className="menu-icon" size="large" onClick={handleOpenModal} />
+          <Nav.Link className="left-nav-item" href="https://www.youtube.com/c/%D7%94%D7%A8%D7%91%D7%9C%D7%99%D7%A1%D7%98%D7%99%D7%A0%D7%99%D7%91%D7%9E%D7%95%D7%A8%D7%A1%D7%99%D7%90%D7%A0%D7%95" target="_blank" rel="noopener noreferrer">
+            <Icon link name="youtube" className="menu-icon youtube" size="large" />
           </Nav.Link>
 
           <Nav.Link className="left-nav-item" href="https://www.facebook.com/yaniv.murciano" target="_blank" rel="noopener noreferrer">
-            <Icon link name="facebook official" className="menu-icon" size="large" />
+            <Icon link name="facebook official" className="menu-icon facebook" size="large" />
           </Nav.Link>
-        </Nav>
 
-        <NewsletterModal modal={modal} setModal={setModal} />
+          <Nav.Link className="left-nav-item" href="https://www.instagram.com/yaniv.murciano" target="_blank" rel="noopener noreferrer">
+            <Icon link name="instagram" className="menu-icon instagram" size="large" />
+          </Nav.Link>
+
+          <Nav.Link className="left-nav-item" href="mailto:Yaniv.Murciano@fagron.co.il">
+            <Icon link name="envelope" className="menu-icon" size="large" />
+          </Nav.Link>
+
+        </Nav>
 
         <p class=""> {`כל הזכויות שמורות הרבליסט © ${date.getFullYear()}`} </p>
       </div>

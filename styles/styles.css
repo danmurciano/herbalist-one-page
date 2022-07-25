@@ -1,8 +1,12 @@
-
 /* Navbar */
 
-.navbarCenter {
-  justify-content: center !important;
+.navbar {
+  background-color: inherit !important;
+  padding: 0 60px;
+}
+
+.navbarLeft {
+  justify-content: left !important;
   margin: auto !important;
   padding: 16px 0 !important;
   width: 100% !important;
@@ -13,180 +17,123 @@
   margin: auto;
 }
 
-.nav-item {
-  margin: 0 20px;
-}
-
-.navText {
-  font-size: 14px;
-  color: rgba(0,0,0,0.6) !important;
-}
-
-.navTextActive {
-  color: rgba(0,0,0,0.9) !important;
-  border-bottom: 3px solid #6197c9;
-}
-
-.navText:Hover {
-  color: rgba(0,0,0,0.9) !important;
-}
-
 
 .left-nav-item {
-  width: 40px;
-  margin: 0 16px;
+  width: 38px;
+  margin: 0 2px;
+  font-size: 15px;
 }
 
-.menu-icon { color: rgba(0,0,0,0.6); margin: auto !important; }
-
-
-
-
-/* Account Popup */
-
-.account-popup {
-  width: 280px;
-  padding: 0 !important;
-}
-
-.account-popup-header {
-  padding: 12px;
-  border-bottom: solid 1px #dbdbdb;
-}
-
-.account-popup-header-right {
-  padding-right: 0 !important;
-}
-
-.account-popup-icon {
-  height: 40px !important;
-  width: 40px !important;
-}
-
-.account-popup-header-left {
-  margin: auto;
-}
-
-.account-popup-name {
-  font-size: 16px;
-  font-weight: 600px;
-  margin-bottom: 0;
-}
-
-.account-popup-email {
-  font-size: 12px;
-  color: grey;
-  margin-bottom: 12px;
-}
-
-.account-popup-body {
-  padding: 12px 12px 8px;
-}
-
-.account-popup-body p {
-  margin-bottom: 16px;
-}
-
-.clear-button {
-  background-color: white !important;
-  border: none !important;
-  font-size: 12px !important;
-  color: black !important;
-  padding: 0 !important;
-  font-family: inherit !important;
-  font-weight: inherit !important;
-
-}
-
-.clear-button:hover {
-  color: #793fbf!important;
+.menu-icon {
+  color: #155e27;
+  margin: auto !important;
 }
 
 
-
-/* Newsletter Modal */
-
-.newsletterModal {
-  text-align: center !important;
-  background-color: white; padding: 0 !important;
+.menu-img: {
+  height: 32px !important;
+  width: 32px !important;
 }
 
-.modal-body { padding: 10px 70px 60px; }
 
-.modal-logo { height: 64px; max-width: 100%; }
-
-.modal-text {
-  margin: 30px; font-size: calc(16px + 0.1vw); color: #949494;
-  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+.youtube {
+  color: #cd201f;
 }
 
-.ui.input>input {
-  text-align: right !important;
-  font-size: 16px !important;
+.facebook {
+  color: #3b5998;
 }
 
-.modal-open {
-  padding-right: 0 !important; background-color: white;
-  overflow-y: scroll !important;
+.instagram {
+  color: #3f729b;
 }
 
 
 
 /* Index Page */
 
-.pageHome { padding: 0 !important; animation: page-fadeIn 1.2s; }
+.pageHome {
+  padding: 0 !important;
+  animation: page-fadeIn 1.2s;
+}
 
 .banner {
   text-align: center !important;
-  background-color: #8dcc98;
-  background-image: url("/images/banner62.jpg");
+  background-image: url("/images/banner_yaniv5.jpg");
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 50% 45%;
+  height: 90vw;
+  max-height: 840px;
 }
 
 
-.logo {
+.color-section {
+  background-image: url("/images/banner57.jpg");
+  background-position: 18% 75%;
+  background-size: cover;
+  padding: calc(40px + 6.8vw) 2vw;
+  border-top: 6px solid #212121;
+  border-bottom: 6px solid #212121;
+  box-shadow: inset 0 0 150px #263d14;
+}
+
+.headline-text {
   margin: auto;
-  padding: 30vh 0;
+}
+
+.headline-text p {
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: calc(13.56px + 0.7vw);
+  margin: auto;
   color: white;
-  border-top: 6px solid #696969;
-  border-bottom: 6px solid #696969;
-}
-
-.logo h1{
-  font-family: 'Nothing You Could Do';
-  font-size: calc(70px + 2.5vw);
-}
-
-.logo p {
-  font-family: 'Heebo', sans-serif;
-  font-weight: 200;
-  font-size: calc(14px + 0.6vw);
-  letter-spacing: 2px;
+  max-width: 840px;
 }
 
 
-
-.title {
-  font: 400 2.5rem/1.25 "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  letter-spacing: -0.025em;
-  font-size: 90px;
-  color: white;
-  text-shadow: 4px 1px 3px rgb(0 0 0 / 35%);
-  padding: 220px 0;
+.white-section {
+  padding: calc(40px + 3vw) 0 calc(60px + 4.5vw);
+  max-width: 1600px;
+  margin: auto;
 }
 
-.main-section {
-  margin: 160px auto !important;
-  vertical-align: middle !important;
-  max-width: 780px;
-  padding: 10px;
+.col-6 {
+  padding: 4%;
+}
+
+.col-12 {
+  padding: 6%;
 }
 
 .main-text {
   font-family: 'Rubik', Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-size: calc(16.08px + 0.1vw);
+  font-size: calc(12.32px + 0.4vw);
+  margin: 0 auto;
+}
+
+.top-image {
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-chinese {
+  background-image: url("/images/chinese.jpg");
+  background-position: 75% 50%;
+}
+
+.img-yaniv5 {
+  background-image: url("/images/yaniv6.jpg");
+  background-position: 100% 50%;
+}
+
+.img-herbs {
+  background-image: url("/images/herbs2.jpg");
+  background-position: 80% 50%;
 }
 
 .image-yaniv {
@@ -200,22 +147,30 @@
 h3 {
   font-family: 'Rubik', Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-size: calc(22.08px + 0.1vw);
+  font-size: calc(18.32px + 0.4vw);
   margin-bottom: 20px;
 }
-
 
 
 
 /* Footer */
 
 .footer-div {
-  margin-top: 100px;
+  padding: 6px;
+  background-color: #ededed;
+  /* background-image: linear-gradient(to right, #ebdb83, #feffd1); */
 }
 
 .footer {
   max-width: 1200px;
-  /* border-top: 1px solid #c7c7c7; */
   text-align: center; margin: 60px auto 0;
-  padding: 6px 20px 20px; font-size: 12px;
+  padding: 6px 20px 30px;
+  font-size: 13px;
+}
+
+.navbarCenter {
+  justify-content: center !important;
+  margin: auto !important;
+  padding: 16px 0 !important;
+  width: 100% !important;
 }
