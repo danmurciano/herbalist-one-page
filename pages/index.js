@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from "react";
 import Header from "../components/_App/Header";
-import Main from "../components/Index/Main";
-import MainSmall from "../components/Index/MainSmall";
+
 import baseUrl from "../utils/baseUrl";
 
 export default function Home() {
@@ -52,11 +51,6 @@ export default function Home() {
         </div>
       </div>
 
-      {smallScreen ? (
-        <MainSmall/>
-      ) : (
-        <Main/>
-      )}
     </div>
   )
 }
