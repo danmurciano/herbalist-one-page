@@ -4,7 +4,6 @@ import 'semantic-ui-css/semantic.min.css';
 import '../styles/bootstrap-rtl.css';
 import '../styles/globals.css';
 import '../styles/styles.css';
-import '../styles/modal.css';
 
 
 class MyApp extends App {
