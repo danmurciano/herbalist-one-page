@@ -69,7 +69,7 @@
 
 .color-section {
   background-image: url("/images/banner57.jpg");
-  background-position: 18% 75%;
+  background-position: 35% 75%;
   background-size: cover;
   padding: calc(40px + 6.8vw) 2vw;
   border-top: 6px solid #212121;
@@ -84,7 +84,7 @@
 .headline-text p {
   font-family: 'Rubik', Arial, Helvetica, sans-serif;
   font-weight: 300;
-  font-size: calc(13.56px + 0.7vw);
+  font-size: calc(15.48px + 0.6vw);
   margin: auto;
   color: white;
   max-width: 840px;
