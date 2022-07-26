@@ -1,39 +1,13 @@
 import React, {useState, useEffect} from "react";
 import Header from "../components/_App/Header";
-
+import Main from "../components/Index/Main";
+import MainSmall from "../components/Index/MainSmall";
 import baseUrl from "../utils/baseUrl";
 
 export default function Home() {
 
-  const smallScreen = isSmallScreen();
+  const smallScreen = false;
 
-  function isSmallScreen() {
-    const [windowSize, setWindowSize] = useState({
-      width: undefined,
-      height: undefined,
-    });
-
-    useEffect(() => {
-      function handleResize() {
-        setWindowSize({
-          width: window.innerWidth,
-          height: window.innerHeight,
-        });
-      }
-
-      window.addEventListener("resize", handleResize);
-
-      handleResize();
-
-      return () => window.removeEventListener("resize", handleResize);
-    }, []);
-
-    if (windowSize.width < 840) {
-      return true;
-    } else {
-      return false;
-    }
-  }
 
 
   return (
@@ -51,6 +25,11 @@ export default function Home() {
         </div>
       </div>
 
+      {smallScreen ? (
+        <MainSmall/>
+      ) : (
+        <Main/>
+      )}
     </div>
   )
 }
