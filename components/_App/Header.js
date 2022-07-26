@@ -28,7 +28,7 @@ function Header() {
             <Icon link name="facebook official" className="menu-icon facebook" size="large" />
           </Nav.Link>
 
-          <Nav.Link className="left-nav-item" href="https://www.instagram.com/yaniv.murciano" target="_blank" rel="noopener noreferrer">
+          <Nav.Link className="left-nav-item" href="https://www.instagram.com/ran.pharma" target="_blank" rel="noopener noreferrer">
             <Icon link name="instagram" className="menu-icon instagram" size="large" />
           </Nav.Link>
 
