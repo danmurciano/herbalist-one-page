@@ -4,18 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "react-scripts build",
+    "build": "next build",
     "start": "next start"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "axios": "^0.21.4",
     "jquery": "^3.6.0",
-    "js-cookie": "^3.0.1",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.13.9",
     "next": "^11.1.2",
-    "nookies": "^2.5.2",
     "popper.js": "^1.16.1",
     "react": "17.0.1",
     "react-bootstrap": "^1.6.4",
