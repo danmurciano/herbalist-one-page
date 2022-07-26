@@ -97,12 +97,17 @@
   margin: auto;
 }
 
+
+.mini-section {
+  padding-bottom: 8vw;
+}
+
 .col-6 {
   padding: 4%;
 }
 
 .col-12 {
-  padding: 6%;
+  padding: 3% 4%;
 }
 
 .main-text {
@@ -133,7 +138,7 @@
 
 .img-herbs {
   background-image: url("/images/herbs2.jpg");
-  background-position: 80% 50%;
+  background-position: 100% 50%;
 }
 
 .image-yaniv {
@@ -165,7 +170,7 @@ h3 {
   max-width: 1200px;
   text-align: center; margin: 60px auto 0;
   padding: 6px 20px 30px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .navbarCenter {

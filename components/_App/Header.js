@@ -12,7 +12,7 @@ function Header() {
     <>
     <Navbar bg="light" expand="md" className="navbar">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse className="navbar-sticky row" id="basic-navbar-nav">
+      <Navbar.Collapse className="navbar-sticky" id="basic-navbar-nav">
 
         <Nav className="navbarLeft navbarList">
 
