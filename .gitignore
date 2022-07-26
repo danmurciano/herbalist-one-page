@@ -22,7 +22,6 @@ packages/now-cli/test/fixtures/integration
 test/lib/deployment/failed-page.txt
 .DS_Store
 .next
-next.config.js
 /.env
 __pycache__
 .vercel
