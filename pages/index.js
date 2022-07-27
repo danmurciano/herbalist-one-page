@@ -39,8 +39,9 @@ export default function Home() {
 
   return (
     <div className="pageHome">
+      <Header />
       <div className="banner">
-        <Header />
+
       </div>
 
       <div className="color-section">
