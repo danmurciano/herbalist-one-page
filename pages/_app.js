@@ -3,7 +3,7 @@ import Layout from "../components/_App/Layout";
 import 'semantic-ui-css/semantic.min.css';
 import '../styles/bootstrap.rtl.css';
 import '../styles/globals.css';
-// import '../styles/styles.css';
+import '../styles/styles.css';
 
 
 class MyApp extends App {
