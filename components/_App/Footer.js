@@ -10,7 +10,7 @@ export default function Header2() {
     <div className="footer-div">
       <div className="footer">
         <h2> צור קשר </h2>
-        <p> טלפון: 052-597-4697 </p>
+        <p> טלפון: 052-593-4697 </p>
 
         <Nav className="navbarCenter navbarList">
 
