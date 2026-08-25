@@ -1,7 +1,6 @@
 /* Navbar */
 
 .navbar {
-  /* background-color: inherit !important; */
   background-color: #ededed;
   padding: 0 60px;
 }
@@ -21,7 +20,7 @@
 
 .left-nav-item {
   width: 44px;
-  margin: 4px 0;
+  margin-bottom: 2px;;
 }
 
 .menu-icon {
@@ -33,7 +32,7 @@
 .menu-img {
   height: 28px !important;
   margin: auto !important;
-  margin-top: 0 !important;
+  margin-top: 5px !important;
 }
 
 .youtube {

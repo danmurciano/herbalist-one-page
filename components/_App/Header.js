@@ -1,13 +1,9 @@
-import React, { useEffect, useState } from "react";
-import Link from "next/link";
-import Router, { useRouter } from "next/router";
-import { Navbar, NavDropdown, Nav, FormControl, Form } from "react-bootstrap";
+import React from "react";
+import { Navbar, Nav } from "react-bootstrap";
 import { Icon, Popup, Image } from "semantic-ui-react";
 
 
 function Header() {
-  const router = useRouter();
-
   return (
     <>
     <Navbar bg="light" expand="md" className="navbar">

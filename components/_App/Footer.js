@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
-import { Navbar, NavDropdown, Nav } from "react-bootstrap";
-import { Icon, Popup, Image } from "semantic-ui-react";
+import { Nav } from "react-bootstrap";
+import { Icon } from "semantic-ui-react";
 
 
-export default function Header2() {
+export default function Footer() {
   var date = new Date();
 
   return (
